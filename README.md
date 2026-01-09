@@ -2,26 +2,26 @@
 
 A comprehensive personal finance tracking application that combines a robust **FastAPI** backend with an interactive **Streamlit** frontend. Manage your transactions, track assets, handle recurring payments, and visualize your financial health with interactive charts.
 
-## 🚀 Features
+## Features
 
-*   **📊 Interactive Dashboard:**
+*   **Interactive Dashboard:**
     *   **Net Worth Trend:** Visualizes your cumulative cash flow over time.
     *   **Asset Breakdown:** Snapshot of your Cash, Debts, Investments, and Property values.
     *   **Monthly Analysis:** Income vs. Expenses breakdown with pie charts and daily trends.
-*   **📝 Transaction Management:**
+*   **Transaction Management:**
     *   Easily add Income and Expense entries with categories and notes.
     *   "Quick Add" interface for rapid data entry.
-*   **🔄 Recurring Transactions:**
+*   **Recurring Transactions:**
     *   Set up automated recurring income (e.g., Salary) or expenses (e.g., Rent, Subscriptions).
     *   Background scheduler automatically generates transactions on their due dates.
     *   Manage active recurring items (Edit/Delete/Pause).
-*   **💰 Asset Tracking:**
+*   **Asset Tracking:**
     *   Log and update the value of your assets and liabilities.
     *   Calculates total Net Worth (Assets - Liabilities).
-*   **📄 Data Viewer:**
+*   **Data Viewer:**
     *   View raw history of all transactions and asset updates in tabular format.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 *   **Frontend:** [Streamlit](https://streamlit.io/)
 *   **Backend:** [FastAPI](https://fastapi.tiangolo.com/)
@@ -30,7 +30,7 @@ A comprehensive personal finance tracking application that combines a robust **F
 *   **Data Processing:** [Pandas](https://pandas.pydata.org/)
 *   **Scheduling:** [APScheduler](https://apscheduler.readthedocs.io/)
 
-## 📦 Installation
+## Installation
 
 1.  **Clone the repository:**
     ```bash
@@ -49,7 +49,7 @@ A comprehensive personal finance tracking application that combines a robust **F
     pip install -r requirements.txt
     ```
 
-## 🏃 Usage
+## Usage
 
 This application requires running both the backend API and the frontend UI simultaneously.
 
@@ -68,7 +68,7 @@ streamlit run main.py
 ```
 *   The application will open in your default web browser (usually at `http://localhost:8501`).
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 financialDashboard/
@@ -82,6 +82,6 @@ financialDashboard/
 └── financial_data.db   # SQLite database (created after running)
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
